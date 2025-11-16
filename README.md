@@ -41,24 +41,4 @@
 - **Modeling:** baseline classifiers (Logistic Regression, Random Forest), simple pipelines, and optional transformer-based approaches.
 - **Evaluation & Submission:** cross-validation, validation metrics (accuracy, F1), and saving a `submission.csv` following `sample_submission.csv` format.
 
-**Reproducibility Notes**
-- If you add heavy models (transformers / GPU), pin package versions in `requirements.txt` and document hardware used.
-- Random seeds: set seeds for NumPy, Python, and model libraries inside the notebook to make results reproducible.
-
-**Suggested Next Steps**
-- Add a `requirements.txt` or `environment.yml` for reproducible installs.
-- Create scripts to run training and inference outside the notebook (e.g., `train.py`, `predict.py`).
-- Add unit tests for preprocessing functions and a lightweight CI workflow.
-
-**Contributing**
-- Fork the repo, create a feature branch, and open a pull request describing your changes.
-- For big experiments, add a short README or notebook summarizing new approaches and results.
-
-**License & Contact**
-- No license specified. If you want to reuse this code, please contact the repository owner: `dyegofern` on GitHub.
-
-If you'd like, I can also:
-- generate a `requirements.txt` from the notebook imports,
-- extract and create small runnable scripts (`train.py`, `predict.py`), or
-- run a quick environment check to list missing packages.
 # mini-project-kaggle-disaster-tweets
