@@ -20,11 +20,10 @@
    .\.venv\Scripts\Activate.ps1
    ```
 
-2. Install dependencies (recommended: create a `requirements.txt`). Example packages used in the notebook:
+2. Install dependencies (utilize the `requirements.txt`):
 
    ```powershell
-   pip install pandas numpy scikit-learn matplotlib seaborn nltk spacy jupyterlab
-   pip install transformers torch tqdm   # optional, if using transformer models
+   pip install -r requirements.txt
    ```
 
 3. Start Jupyter and open the notebook:
